@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap5/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/0f25780317.js" crossorigin="anonymous"></script>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.audioControls.min.js"></script>
+
+	<script src="js/funciones.js"></script>
+
+
+	
+	<style>
+
+		body
+		{
+			background: #EED4AB;
+		}
+		.botoncabecera
+		{
+			background: none;
+		}
+		.boto{
+			background: white;
+		}
+
+		a 
+		{
+			color: black;
+			text-decoration:none ;
+		}
+	</style>
+
+
+</head>
+<body>
+	<p></p>
+	<p></p>
+	<div class="container m-5">
+	<section class="row mt-3">
+		<main class="col-lg-6">
+	
+		<div class="row justify-content-between">
+			<div class="col-auto botoncabecera">
+				<div class="botones">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</div>
+			</div>
+			<div class="col-auto botoncabecera">
+				<p class="d-none d-md-block">reproduciendo ahora</p>
+				<p class="d-block d-md-none">ahora</p>
+			</div>	
+			<div class="col-auto botoncabecera">
+				<div class="botones">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</div>
+		</div>
+<p></p>
+<p></p>
+		<div class="row text-center">
+			<div class="col">
+				<img src="imagenes/lafour.jpg" width="300px" height="300px" >
+			</div>
+		</div>
+<p></p>
+<p></p>
+		<div>
+			<div class="row">
+				<div class="col text-center">
+					<h2>Natalia Laurfocade</h2>
+					<h3></h3>
+				</div>
+			</div>
+		</div> 
+
+		
+
+
+		<div class="row justify-content-between">
+		<span class="col-3 nombremp3">nombre</span>
+		<span class="col-3  text-end audioTime" data-attr="timer"></span>
+	</div>
+
+	
+	<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  	<div class="progress-bar updateProgress"></div>
+	</div>
+
+
+		<!--button class="btn btn-primary">bootstrap</button>
+		<i class="fa-solid fa-arrow-left"></i-->
+<p></p>
+<p></p>
+<p></p>
+
+		<div class="row justify-content-center">
+			<div class="col-auto botoncabecera">
+				<div class="botones">
+					<i class="fa-solid fa-backward-step"></i>
+				</div>
+			</div>
+			<div class="col-auto botoncabecera">
+				<i class="fa-solid fa-pause"></i>
+			</div>
+			<div class="col-auto botoncabecera">
+				<div class="botones">
+					<i class="fa-solid fa-forward-step"></i>
+				</div>
+			</div>
+		</div>
+		</main>
+		
+<aside class="col-lg-6 mt-5">
+		<ul class="list-group mt-5 playlist">
+  <li class="list-group-item " data-src="audio/Natalia Lafourcade - La Llorona.mp3">
+  	<a href="#">Natalia Laurfocade - La llorona</a>
+  </li>
+  <li class="list-group-item"  data-src="audio/nat - Pajarito colibrí.mp3">
+  	<a href="#">Natalia Laurfocade - Pajarito colibrí</a>
+  </li>
+  <li class="list-group-item" data-src="audio/nat- - Vine solita.mp3">
+  	<a href="#">Natalia Laurfocade - Vine solita</a>
+  </li>
+  <li class="list-group-item" data-src="audio/nat- Luz de Luna.mp3">
+  	<a href="#">Natalia Laurfocade - Luz de luna</a>
+  </li>
+  <li class="list-group-item" data-src="audio/Juan Gabriel - Ya No Vivo Por Vivir ft. Natalia Lafourcade.mp3">
+  	<a href="#">Natalia Laurfocade - Yo no vivo por vivir</a>
+  </li>
+</ul>
+		</aside>
+</section>
+	</div>
+
+</body>
+</html>
